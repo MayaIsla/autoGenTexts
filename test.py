@@ -31,7 +31,7 @@ headers = {
 body = {
     'from': num,
     'to': '+NUMBER',
-    'body': 'hi'
+    'body': text
 }
 
 response = requests.post('https://us.sms.api.sinch.com/xms/v1/#/batches', headers=headers, data=body)
